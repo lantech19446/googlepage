@@ -15,7 +15,7 @@
   width: 584px;
   height: 36px;
   top: 311px;
-
+  margin-top: 0;
 }
 #logo {
 font-size: small;
@@ -23,4 +23,9 @@ padding-top: 109px;
   width: 272px;
   height: 92px;
   margin-top: 109px;
+}
+.menus {
+  font-family: ariel;
+  text-align: right;
+  font-size: 13px;
 }
