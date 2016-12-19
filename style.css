@@ -15,12 +15,12 @@
   width: 584px;
   height: 36px;
   top: 311px;
-  margin-top: 0;
+
 }
 #logo {
 font-size: small;
 padding-top: 109px;
-top: 50%;
   width: 272px;
   height: 92px;
+  margin-top: 109px;
 }
