@@ -3,3 +3,7 @@
   height: 36px;
   position: absolute;
 }
+#logo {
+  font-size: small;
+  padding-top: 109px;
+}
