@@ -1,13 +1,11 @@
 .main {
-  position: relative;
-  text-align: center;
+text-align: center;
   font-size: small;
-  display:block;
+  display: block;
   margin: 0 auto;
-
 }
-.logo {
-  margin-bottom: 35px;
+.centered {
+  margin-left: 200px;
 }
 
 
@@ -16,20 +14,30 @@
   height: 36px;
   top: 311px;
   margin-top: 0;
+
 }
 #logo {
-font-size: small;
-padding-top: 109px;
-  width: 272px;
-  height: 92px;
-  margin-top: 109px;
+  font-size: small;
+  padding-top: 109px;
+    width: 272px;
+    height: 92px;
+    margin-top: 109px;
+      margin-bottom: 35px;
+      text-align: center;
 }
 .gmail, .images, .apps {
   height: 36px;
   font-family: ariel;
-  text-align: right;
+  float: right;
   font-size: 13px;
   vertical-align: middle;
+  -webkit-appearance: none;
+.apps {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
 }
 .button {
 background-color: #4387fd;
