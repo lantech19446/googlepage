@@ -55,8 +55,12 @@ margin-right: 15px;
   padding-right: 15px;
 }
 #goto {
-  margin-left: 655px;
+text-align: center;
+
 }
-.google .lucky {
-  border-radius: 2px;
+#google #lucky {
+  border: 1px solid;
+  height: 34px;
+  padding: 40px;
+  
 }
