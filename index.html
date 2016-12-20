@@ -5,13 +5,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="gmail images apps">
+  <span class="gmail apps images">
+    <span id="gmail">
     <a>Gmail</a>
+  </span>
+  <span id="images">
     <a>images</a>
-  <a><img src="apps.png"></img></a>
-  <button class="button">Sign In</button>
-  </div>
-  <div class="main">
+  </span>
+    <span id="apps">
+    <a><img src="apps.jpeg"></img></a>
+  </span>
+  <span id="button">
+    <button class="button" id="button">Sign In</button>
+  </span>
+</span>
+<div class="main">
     <div class="centered">
   <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
 </div>
@@ -19,5 +27,9 @@
 <input id="searchbar" type="text" value="">
 </div>
 </div>
+<span id="goto">
+  <button class="google">Google Search</button>
+  <button class="lucky">I'm feeling lucky</button>
+</span>
 </body>
 </html>

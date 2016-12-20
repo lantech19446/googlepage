@@ -5,16 +5,14 @@ text-align: center;
   margin: 0 auto;
 }
 .centered {
-  margin-left: 200px;
+  margin-left: 325px;
 }
-
-
 #searchbar {
   width: 584px;
   height: 36px;
   top: 311px;
   margin-top: 0;
-
+  margin-bottom: 36px;
 }
 #logo {
   font-size: small;
@@ -26,22 +24,39 @@ text-align: center;
       text-align: center;
 }
 .gmail, .images, .apps {
-  height: 36px;
   font-family: ariel;
   float: right;
   font-size: 13px;
-  vertical-align: middle;
-  -webkit-appearance: none;
-.apps {
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  padding: 0;
+  margin-top: 5px;
 }
-}
+
 .button {
 background-color: #4387fd;
 color: white;
 border: 1px solid;
 height: 30px;
+margin-right: 15px;
+}
+#gmail {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#images {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#apps {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+#button {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#goto {
+  margin-left: 655px;
+}
+.google .lucky {
+  border-radius: 2px;
 }
