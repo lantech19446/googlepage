@@ -53,3 +53,11 @@ padding: 8px 8px;
   color: black;
   border: 1px solid;
   }
+input.button1 {
+  padding: 8px;
+  margin-right: 5px;
+}
+input.button2 {
+  padding: 8px;
+  margin-left: 3px;
+}
