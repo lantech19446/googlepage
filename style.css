@@ -26,7 +26,6 @@ text-align: center;
 .gmail, .images, .apps {
   font-family: ariel;
   float: right;
-  font-size: 13px;
   margin-top: 5px;
 }
 
@@ -34,8 +33,8 @@ text-align: center;
 background-color: #4387fd;
 color: white;
 border: 1px solid;
-height: 30px;
 margin-right: 15px;
+padding: 8px 8px;
 }
 #gmail {
   padding-left: 15px;
@@ -48,19 +47,9 @@ margin-right: 15px;
 #apps {
   padding-left: 15px;
   padding-right: 15px;
-
 }
-#button {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#goto {
-text-align: center;
-
-}
-#google #lucky {
+.button1 .button2 {
+  background-color: #f2f2f2;
+  color: black;
   border: 1px solid;
-  height: 34px;
-  padding: 40px;
-  
-}
+  }
